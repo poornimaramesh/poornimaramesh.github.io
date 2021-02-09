@@ -20,5 +20,5 @@ styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.lig
 # Build settings
 highlighter: null
 markdown: kramdown
-theme: minima
-# remote_theme: knhash/Pudhina
+# theme: minima
+remote_theme: knhash/Pudhina
