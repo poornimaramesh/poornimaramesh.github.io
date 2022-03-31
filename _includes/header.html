@@ -15,6 +15,11 @@
 <i class="fa fa-twitter"></i>
 </a>
 {% endif %}
+{% if site.author.googlescholar %}
+<a href="{{ site.author.googlescholar }}" class="social-links__entry" target="_blank" title="Google Scholar">
+<i class="fa fa-google"></i>
+</a>
+{% endif %}
 {% if site.author.github %}
 <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank" title="GitHub">
 <i class="fa fa-github"></i>
