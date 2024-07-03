@@ -8,13 +8,10 @@
 </div>
 <ul class="social-links">
 <a href="assets/docs/PoornimaRamesh_CV.pdf" class="social-links__entry" target="_blank" title="CV">
-<i class="fa fa-university"></i>
+<div id="describe-text" style="font-size: 30px; font-weight: 100; font-family: Open Sans Light; position: relative; top: -10px;">
+    CV
+</div>
 </a>
-{% if site.author.twitter %}
-<a href="{{ site.author.twitter }}" class="social-links__entry" target="_blank" title="Twitter">
-<i class="fa fa-twitter"></i>
-</a>
-{% endif %}
 {% if site.author.googlescholar %}
 <a href="{{ site.author.googlescholar }}" class="social-links__entry" target="_blank" title="Google Scholar">
 <i class="fa fa-google"></i>
@@ -30,5 +27,16 @@
 <i class="fa fa-linkedin"></i>
 </a>
 {% endif %}
+{% if site.author.twitter %}
+<a href="{{ site.author.twitter }}" class="social-links__entry" target="_blank" title="Twitter">
+    <i class="fa fa-twitter"></i>
+</a>
+{% endif %}
+<a href="{{ '/blog' | prepend: site.baseurl }}" class="social-links__entry" title="Blog">
+<div id="describe-text"
+    style="font-size: 30px; font-weight: 100; font-family: Open Sans Light; position: relative; top: -10px;">
+    blog
+</div>
+</a>
 </ul>
 </header>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include meta_tags/base.html %}
+    {% include externals/styling.html %}
+</head>
+
+<body>
+    <div class="wrapper">
+        {% include header_blog.html %}
+        <h1 class="page-title">
+            <div class="page-title__text">{{ page.title }}</div>
+            <div class="page-title__subtitle">{{ page.subtitle }}</div>
+        </h1>
+        {{ content }}
+    </div>
+    {% include externals/scripting.html %}
+</body>
+
+</html>
